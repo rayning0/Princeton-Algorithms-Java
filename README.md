@@ -1,4 +1,4 @@
-My solutions to Robert Sedgewick's fantastic courses on Algorithms/Data Structures (http://algs4.cs.princeton.edu/home/) and Intro to Programming in Java (http://introcs.cs.princeton.edu/java/home/).
+My solutions to Robert Sedgewick's fantastic Princeton courses on Algorithms/Data Structures (http://algs4.cs.princeton.edu/home/) and Intro to Programming in Java (http://introcs.cs.princeton.edu/java/home/).
 
 See /alg for my Algorithms files and /introcs for my Intro to Programming in Java files.
 
