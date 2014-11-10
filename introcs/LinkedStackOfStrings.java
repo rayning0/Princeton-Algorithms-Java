@@ -1,3 +1,4 @@
+
 /*************************************************************************
  *  Compilation:  javac LinkedStackOfStrings.java
  *  Execution:    java LinkedStackOfStrings

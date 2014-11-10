@@ -1,0 +1,8 @@
+Turing, Alan 
+10.24 
+5 
+100 ADBE 
+ 25 GOOG 
+ 97 IBM 
+250 MSFT 
+200 YHOO 

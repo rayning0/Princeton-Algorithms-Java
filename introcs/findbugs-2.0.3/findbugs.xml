@@ -1,0 +1,27 @@
+<FindBugsFilter>
+     <!-- Bug descriptions: http://findbugs.sourceforge.net/bugDescriptions.html  -->
+
+     <!-- Match all violations. -->
+
+     <!-- But ignore these:
+            * generating a random integer using Math.random(),
+            * string buffer instead of string concatenation.
+            * comparator should be serializable
+            * inner class should be static
+            * not throwing a NoSuchElementException in the next() method of an Iterator
+            * class defines compareTo() and inherits equals()
+            * class defines equals() and inherits hashCode()
+       -->
+     <Match classregex=".*" >
+       <BugPattern name="DM_NEXTINT_VIA_NEXTDOUBLE,
+                         SBSC_USE_STRINGBUFFER_CONCATENATION,
+                         SE_COMPARATOR_SHOULD_BE_SERIALIZABLE,
+                         SE_BAD_FIELD,
+                         VA_FORMAT_STRING_USES_NEWLINE,
+                         SIC_INNER_SHOULD_BE_STATIC,
+                         EQ_COMPARETO_USE_OBJECT_EQUALS,
+                         HE_EQUALS_USE_HASHCODE,
+                         HE_EQUALS_NO_HASHCODE" />
+     </Match>
+
+</FindBugsFilter>
